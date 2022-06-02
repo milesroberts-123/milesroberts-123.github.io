@@ -3,24 +3,31 @@
 }
 .red{
 	background-color: red;
+	text-align: center;
 }
 .orange{
 	background-color: orange;
+	text-align: center;
 }
 .yellow{
 	background-color: yellow;
+	text-align: center;
 }
 .green{
 	background-color: green;
+	text-align: center;
 }
 .blue{
 	background-color: blue;
+	text-align: center;
 }
 .indigo{
 	background-color: indigo;
+	text-align: center;
 }
 .violet{
 	background-color: violet;
+	text-align: center;
 }
 .dark {
   background-color: black;
