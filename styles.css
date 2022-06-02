@@ -4,6 +4,7 @@
 .red{
 	background-color: red;
 	text-align: center;
+	color: white;
 }
 .orange{
 	background-color: orange;
@@ -16,14 +17,17 @@
 .green{
 	background-color: green;
 	text-align: center;
+	color: white;
 }
 .blue{
 	background-color: blue;
 	text-align: center;
+	color: white;
 }
 .indigo{
 	background-color: indigo;
 	text-align: center;
+	color: white;
 }
 .violet{
 	background-color: violet;
