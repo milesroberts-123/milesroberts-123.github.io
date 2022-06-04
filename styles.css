@@ -2,36 +2,41 @@
 	background-color: #FFC0CB;
 }
 .red{
-	background-color: red;
+	border-color: red;
 	text-align: center;
 	color: white;
+	border-style: solid;
 }
 .orange{
-	background-color: orange;
+	border-color: orange;
 	text-align: center;
+	border-style: solid;
 }
 .yellow{
-	background-color: yellow;
+	border-color: yellow;
 	text-align: center;
+	border-style: solid;
 }
 .green{
-	background-color: green;
+	border-color: green;
 	text-align: center;
 	color: white;
+	border-style: solid;
 }
 .blue{
-	background-color: blue;
+	border-color: blue;
 	text-align: center;
-	color: white;
+	border-style: solid;
 }
 .indigo{
-	background-color: indigo;
+	border-color: indigo;
 	text-align: center;
-	color: white;
+	border-style: solid;
 }
 .violet{
-	background-color: violet;
+	border-color: violet;
 	text-align: center;
+	border-style: solid;
 }
 .dark {
   background-color: black;
