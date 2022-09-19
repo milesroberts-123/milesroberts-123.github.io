@@ -1,8 +1,14 @@
 # Editing the website
 
-## Updating the calendar
+```
+git add --all
 
-## Updating the eboard page
+git commit -m "Any note I want"
+
+git push -u origin master
+
+```
+Then enter the personal access key twice. Generate keys via: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 # Helpful resources
 Quick tutorial on HTML and CSS: https://happycoding.io/tutorials/html/html
