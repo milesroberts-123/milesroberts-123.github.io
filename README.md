@@ -16,3 +16,5 @@ Quick tutorial on HTML and CSS: https://happycoding.io/tutorials/html/html
 HTML reference: https://www.w3schools.com/TAgs/default.asp
 
 CSS reference: https://www.w3schools.com/css/default.asp
+
+Change website domain: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
