@@ -1,14 +1,6 @@
-# My website
-
-Built using mkdocs and hosted on github pages
-
 # Editing the website
 
 ```
-# build edits into site folder
-mkdocs build
-
-# add site to github pages repo
 git add --all
 
 git commit -m "Any note I want"
