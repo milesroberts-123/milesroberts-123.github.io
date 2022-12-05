@@ -1,7 +1,7 @@
 
 My website is built with [mkdocs.org](https://mkdocs.org) and hosted on [github pages](https://pages.github.com/).
 
-This page documents the process of me learning how to build a website with these tools. I'm probably the only one that will find it interesting, but I'll make it public just for fun
+This page documents the process of me learning how to build a website with these tools. I'm probably the only one that will find it interesting, but I'll make it public just for fun!
 
 # mkdocs Commands
 
@@ -38,10 +38,10 @@ Then enter the personal access key twice. Generate keys via: https://docs.github
 
 # Helpful resources for building websites from scratch
 
-Quick tutorial on HTML and CSS: https://happycoding.io/tutorials/html/html
+[Quick tutorial on HTML and CSS](https://happycoding.io/tutorials/html/html)
 
-HTML reference: https://www.w3schools.com/TAgs/default.asp
+[HTML reference](https://www.w3schools.com/TAgs/default.asp)
 
-CSS reference: https://www.w3schools.com/css/default.asp
+[CSS reference](https://www.w3schools.com/css/default.asp)
 
-Change website domain: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+[Change website domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
