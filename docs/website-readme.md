@@ -1,6 +1,8 @@
 
 My website is built with [mkdocs.org](https://mkdocs.org) and hosted on [github pages](https://pages.github.com/).
 
+This page documents the process of me learning how to build a website with these tools. I'm probably the only one that will find it interesting, but I'll make it public just for fun
+
 # mkdocs Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
