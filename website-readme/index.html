@@ -76,12 +76,29 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#editing-the-website">Editing the website</a></li>
+        <li class="main active"><a href="#mkdocs-commands">mkdocs Commands</a></li>
+        <li class="main "><a href="#project-layout">Project layout</a></li>
+        <li class="main "><a href="#editing-the-website">Editing the website</a></li>
         <li class="main "><a href="#helpful-resources">Helpful resources</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
+<p>My website is built with <a href="https://mkdocs.org">mkdocs.org</a> and hosted on github pages.</p>
+<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
+<h1 id="mkdocs-commands">mkdocs Commands</h1>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs help</code> - Print this help message.</li>
+</ul>
+<h1 id="project-layout">Project layout</h1>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
 <h1 id="editing-the-website">Editing the website</h1>
 <pre><code>mkdocs build
 

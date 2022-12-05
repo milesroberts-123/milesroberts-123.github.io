@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+This is the personal website for Miles Roberts!
 
-## Commands
+## Quick info
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Name: Miles Roberts
 
-## Project layout
+Current Position(s): 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Doctoral candidate in Genetics and Genome Sciences Program, Michigan State University
+
+* Treasurer, Council of Graduate Students, Michigan State University
+
+Email: milesdroberts@gmail.com
+
+GitHub: milesroberts-123
+
+Twitter: @MilesDaRoberts
+
+
