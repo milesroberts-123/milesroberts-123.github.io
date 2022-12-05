@@ -2,6 +2,8 @@
 
 This is the personal website for Miles Roberts!
 
+![Headshot](img/HeadShot_MilesRoberts_2022.jpg)
+
 ## Quick info
 
 Name: Miles Roberts
