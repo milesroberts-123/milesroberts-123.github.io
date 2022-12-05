@@ -3,3 +3,4 @@ site_url: https://milesroberts-123.github.io/
 nav:
   - Home: index.md
   - CV: cv.md
+  - README: website-readme.md
