@@ -1,17 +1,17 @@
-# Reserach Philosophy [In progress]
+# Reserach Philosophy
 
-I believe that scientists are defined by their ability to balance competing values of the scientific enterprise. We must be intensely skeptical, but open-minded. We must be bold and innovative, but also conservative. We must be produce results regularly, but also ensure said results are of high quality. We must each specialize in particular fields, but also reach across disciplines. A "good" scientist (one that maximizes their impact on the world) is one that balances these values. Learning this balance is a continuous life-long process, but it is the most rewarding endeavor.
+I believe that scientists are defined by their ability to balance competing values of the scientific enterprise. We must be skeptical yet open-minded. We must be bold yet conservative. A "good" scientist is one that balances these values. Learning this balance is a life-long process, but it is the most rewarding endeavor.
 
 # Primary skills 
 
-* Population genetics/genomics:
+* Population genetics: dN/dS, nucleotide diversity, selective sweep statistics, phylogenetic comparative methods
 
-* Computational biology: snakemake workflows, high-performance and cloud computing
+* Genomics: variant calling, bulk RNA-seq analysis, k-mer analyses
 
-* Coding: R, python, latex, github, bash
+* Computational biology: snakemake workflows, high-performance and cloud computing, R, python, latex, github, bash
 
-# Focus 1: Evolution of environment-specific gene expression
+# Evolution of environment-specific gene expression
 
-# Focus 2: K-mer-based approaches to population genetics, estimating genetic diversity
+# K-mer-based approaches to population genetics, estimating genetic diversity
 
-# Focus 3: Machine learning approaches to estimating timing of allele frequency trajectories
+# Machine learning modles to estimate timing of allele frequency trajectories
