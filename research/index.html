@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,15 @@
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Research - Miles Roberts Personal Website</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -25,7 +26,7 @@
             <div class="container">
                 <a class="navbar-brand" href="..">Miles Roberts Personal Website</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -33,23 +34,23 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../cv/" class="nav-link">CV</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../website-readme/" class="nav-link">README</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Research</a>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Research</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -70,38 +71,33 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#reserach-philosophy" class="nav-link">Reserach Philosophy</a>
+            <li class="nav-item" data-bs-level="1"><a href="#primary-skills" class="nav-link">Primary skills</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#primary-skills" class="nav-link">Primary skills</a>
+            <li class="nav-item" data-bs-level="1"><a href="#evolution-of-environment-specific-gene-expression" class="nav-link">Evolution of environment-specific gene expression</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#evolution-of-environment-specific-gene-expression" class="nav-link">Evolution of environment-specific gene expression</a>
+            <li class="nav-item" data-bs-level="1"><a href="#k-mer-based-approaches-to-population-genetics-estimating-genetic-diversity" class="nav-link">K-mer-based approaches to population genetics, estimating genetic diversity</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#k-mer-based-approaches-to-population-genetics-estimating-genetic-diversity" class="nav-link">K-mer-based approaches to population genetics, estimating genetic diversity</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#machine-learning-modles-to-estimate-timing-of-allele-frequency-trajectories" class="nav-link">Machine learning modles to estimate timing of allele frequency trajectories</a>
+            <li class="nav-item" data-bs-level="1"><a href="#machine-learning-modles-to-estimate-timing-of-allele-frequency-trajectories" class="nav-link">Machine learning modles to estimate timing of allele frequency trajectories</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -110,8 +106,6 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="reserach-philosophy">Reserach Philosophy</h1>
-<p>I believe that scientists are defined by their ability to balance competing values of the scientific enterprise. We must be skeptical yet open-minded. We must be bold yet conservative. A "good" scientist is one that balances these values. Learning this balance is a life-long process, but it is the most rewarding endeavor.</p>
 <h1 id="primary-skills">Primary skills</h1>
 <ul>
 <li>
@@ -125,8 +119,17 @@
 </li>
 </ul>
 <h1 id="evolution-of-environment-specific-gene-expression">Evolution of environment-specific gene expression</h1>
+<p>Paper: https://doi.org/10.1093/genetics/iyad074</p>
+<p>This is my first chapter published in <em>Genetics</em>.</p>
+<p>In this paper, I investigated whether the environment-specificity of a gene's expression affects the strength of purifying selection acting on it. The key idea behind this expectation is that selection acts on phenotypes. Thus, selection can only act to conserve a given DNA element when that element is producing a phenotype. If only some individuals in a population are experiencing heat stress, for example, then only that subset of individuals will experience selection to maintain their heat stress responses. The other individuals not experiencing heat stress could accumulate substitutions in their heat tolerance genes without any consequence. This expectation is well-solidified in theoretical papers, but has not been tested experimentally. I leveraged about 20 terabases of RNA-seq data in <em>Arabidopsis thaliana</em> from over 200 different environmental conditions to test this hypothesis. </p>
 <h1 id="k-mer-based-approaches-to-population-genetics-estimating-genetic-diversity">K-mer-based approaches to population genetics, estimating genetic diversity</h1>
-<h1 id="machine-learning-modles-to-estimate-timing-of-allele-frequency-trajectories">Machine learning modles to estimate timing of allele frequency trajectories</h1></div>
+<p>Preprint: https://doi.org/10.1101/2024.05.17.594778</p>
+<p>This is the second chapter of my dissertation and it is currently undergoing peer review.</p>
+<p>In this paper, I use k-mers to measure genetic diversity indices across 112 different plant species.</p>
+<h1 id="machine-learning-modles-to-estimate-timing-of-allele-frequency-trajectories">Machine learning modles to estimate timing of allele frequency trajectories</h1>
+<p>Github repo: https://github.com/milesroberts-123/selection-demography-cnn/tree/dev</p>
+<p>This is the third chapter of my dissertation and it is still in progress.</p>
+<p>I am interested in building machine learning models that can, for a given genomic region known to have experienced a recent selective sweep, accurately predict the time to fixation of the sweep.</p></div>
             </div>
         </div>
 
@@ -134,19 +137,20 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -166,7 +170,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
