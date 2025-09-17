@@ -1,5 +1,9 @@
 site_name: Miles Roberts Personal Website
 site_url: https://milesroberts-123.github.io/
+theme:
+  name: readthedocs
+  color_mode: dark
+  user_color_mode_toggle: true
 nav:
   - Home: index.md
   - CV: cv.md
