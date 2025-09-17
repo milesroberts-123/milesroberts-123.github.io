@@ -8,15 +8,15 @@ This is the personal website for Miles Roberts! See a big picture of my face bel
 
 Current Position(s): 
 
-* **Doctoral candidate**, Genetics and Genome Sciences Program, Michigan State University
-
-* **President**, [Council of Graduate Students](https://cogs.msu.edu/), Michigan State University
+* **Postdoctoral scholar**, Moi Lab, UC Berkeley
 
 # How to contact me
 
-Personal Email: milesdroberts@gmail.com
+Personal Email (remove the poly @): milesdroberts@@@@@@@gmail.com
 
 GitHub: milesroberts-123
+
+Bluesky: @milesroberts.bsky.social
 
 Twitter/X: @MilesDaRoberts
 

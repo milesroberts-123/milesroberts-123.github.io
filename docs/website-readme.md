@@ -36,7 +36,7 @@ git push -u origin master
 
 Then enter the personal access key twice. Generate keys via: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-# Helpful resources for building websites from scratch
+# Helpful resources for building github pages
 
 [Quick tutorial on HTML and CSS](https://happycoding.io/tutorials/html/html)
 

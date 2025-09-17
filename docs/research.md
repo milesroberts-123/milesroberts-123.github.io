@@ -1,4 +1,4 @@
-# Primary skills 
+# Skills
 
 * Population genetics: dN/dS, nucleotide diversity, selective sweep statistics, phylogenetic comparative methods
 
@@ -14,7 +14,7 @@ This is my first chapter published in *Genetics*.
 
 In this paper, I investigated whether the environment-specificity of a gene's expression affects the strength of purifying selection acting on it. The key idea behind this expectation is that selection acts on phenotypes. Thus, selection can only act to conserve a given DNA element when that element is producing a phenotype. If only some individuals in a population are experiencing heat stress, for example, then only that subset of individuals will experience selection to maintain their heat stress responses. The other individuals not experiencing heat stress could accumulate substitutions in their heat tolerance genes without any consequence. This expectation is well-solidified in theoretical papers, but has not been tested experimentally. I leveraged about 20 terabases of RNA-seq data in *Arabidopsis thaliana* from over 200 different environmental conditions to test this hypothesis. 
 
-# K-mer-based approaches to population genetics, estimating genetic diversity
+# K-mer-based approaches to population genetics
 
 Preprint: https://doi.org/10.1101/2024.05.17.594778
 
