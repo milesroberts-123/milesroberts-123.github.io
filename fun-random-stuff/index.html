@@ -66,7 +66,17 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Fun</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#classic-papers-list">Classic papers list</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#population-genetics">Population genetics</a>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#building-an-ai-agent-to-ask-questions-about-papers-on-a-slurm-cluster">Building an AI agent to ask questions about papers on a SLURM cluster?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#containerizing-snakemake-workflows">Containerizing snakemake workflows</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#snakemake-reports-from-rmarkdown">Snakemake reports from rmarkdown</a>
     </li>
     </ul>
                 </li>
@@ -95,9 +105,26 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="fun-random-things">Fun random things</h1>
+<h2 id="classic-papers-list">Classic papers list</h2>
+<p>https://morrelllab.github.io/classics/index.html</p>
+<h3 id="population-genetics">Population genetics</h3>
+<p>Pollak, Edward. "On the theory of partially inbreeding finite populations. I. Partial selfing." Genetics 117.2 (1987): 353.</p>
 <h2 id="building-an-ai-agent-to-ask-questions-about-papers-on-a-slurm-cluster">Building an AI agent to ask questions about papers on a SLURM cluster?</h2>
 <p>I made a simple CLI python script to pull papers and use a LLM to answer questions about the papers with retrival augmented generation.</p>
 <p>https://github.com/milesroberts-123/custom-rag-cli/tree/main</p>
+<h2 id="containerizing-snakemake-workflows">Containerizing snakemake workflows</h2>
+<p>https://github.com/snakemake/snakemake/issues/2602</p>
+<p>Create docker file with <code>snakemake --containerize &gt; Dockerfile</code>. Copy Dockerfile and envs to same directory. Then run these commands from a computer with docker:</p>
+<pre><code class="language-sh">sudo docker build -t poolseq-kmers .
+sudo docker login -u milesroberts
+sudo docker tag poolseq-kmers milesroberts/poolseq-kmers
+sudo docker push milesroberts/poolseq-kmers
+</code></pre>
+<h2 id="snakemake-reports-from-rmarkdown">Snakemake reports from rmarkdown</h2>
+<p>Could be a good idea to move my notebook into scripts, which will generate figures that get compiled into a snakemake report. In my mind, this is more easily reproducibile than having someone configure a notebook. However, you can't really explore the data this way beyond whatever figures you predetermine.</p>
+<p>Another option is to just add my notebook as a snakemake rule:</p>
+<p>https://nbis-reproducible-research.readthedocs.io/en/course_2104/rmarkdown/#r-markdown-and-snakemake</p>
+<p>This could be nicer because R markdown will give me more control over what the report.html looks like.</p>
               
             </div>
           </div><footer>
