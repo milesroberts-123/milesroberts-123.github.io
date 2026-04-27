@@ -2,7 +2,7 @@
 
 This is the personal website for Miles Roberts! See a big picture of my face below to confirm you're at the right place!
 
-![Headshot](img/HeadShot_MilesRoberts_2022.jpg)
+![Headshot](img/HeadShot_MilesRoberts_2022.jpg){ width="300" }
 
 # What do I do?
 
@@ -10,9 +10,9 @@ Current Position(s):
 
 * **Postdoctoral scholar**, Moi Lab, UC Berkeley
 
-# How to contact me
+# Contact
 
-Personal Email (remove the poly @): milesdroberts@@@@@@@gmail.com
+Personal Email: milesdroberts<at>gmail.com
 
 GitHub: milesroberts-123
 
