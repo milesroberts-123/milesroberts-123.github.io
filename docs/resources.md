@@ -1,6 +1,8 @@
-# Fun random things
+# Resources
 
-## Classic papers list
+This is a repository of fun things I learn, but have no where to write them.
+
+## Favorite papers list
 
 https://morrelllab.github.io/classics/index.html
 

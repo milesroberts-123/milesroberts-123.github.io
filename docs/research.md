@@ -16,13 +16,15 @@ In this paper, I investigated whether the environment-specificity of a gene's ex
 
 # K-mer-based approaches to population genetics
 
-Preprint: https://doi.org/10.1101/2024.05.17.594778
+Paper: https://doi.org/10.1101/2024.05.17.594778
 
 This is the second chapter of my dissertation and it is currently undergoing peer review.
 
 In this paper, I use k-mers to measure genetic diversity indices across 112 different plant species.
 
 # Machine learning modles to estimate timing of allele frequency trajectories
+
+Preprint:
 
 Github repo: https://github.com/milesroberts-123/selection-demography-cnn/tree/dev
 

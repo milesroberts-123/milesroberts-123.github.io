@@ -1,0 +1,10 @@
+/* Change header colors */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Adjust the body text size */
+body {
+    font-size: 16px;
+}
+
