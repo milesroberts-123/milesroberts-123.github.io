@@ -139,27 +139,22 @@
             
         </header>
         <p><h1 id="resources">Resources</h1>
-<p>This is a repository of fun things I learn, but have no where to write them.</p>
-<h2 id="favorite-papers-list">Favorite papers list</h2>
-<p>https://morrelllab.github.io/classics/index.html</p>
-<h3 id="population-genetics">Population genetics</h3>
-<p>Pollak, Edward. "On the theory of partially inbreeding finite populations. I. Partial selfing." Genetics 117.2 (1987): 353.</p>
-<h2 id="building-an-ai-agent-to-ask-questions-about-papers-on-a-slurm-cluster">Building an AI agent to ask questions about papers on a SLURM cluster?</h2>
-<p>I made a simple CLI python script to pull papers and use a LLM to answer questions about the papers with retrival augmented generation.</p>
-<p>https://github.com/milesroberts-123/custom-rag-cli/tree/main</p>
-<h2 id="containerizing-snakemake-workflows">Containerizing snakemake workflows</h2>
-<p>https://github.com/snakemake/snakemake/issues/2602</p>
-<p>Create docker file with <code>snakemake --containerize &gt; Dockerfile</code>. Copy Dockerfile and envs to same directory. Then run these commands from a computer with docker:</p>
-<pre><code class="language-sh">sudo docker build -t poolseq-kmers .
-sudo docker login -u milesroberts
-sudo docker tag poolseq-kmers milesroberts/poolseq-kmers
-sudo docker push milesroberts/poolseq-kmers
-</code></pre>
-<h2 id="snakemake-reports-from-rmarkdown">Snakemake reports from rmarkdown</h2>
-<p>Could be a good idea to move my notebook into scripts, which will generate figures that get compiled into a snakemake report. In my mind, this is more easily reproducibile than having someone configure a notebook. However, you can't really explore the data this way beyond whatever figures you predetermine.</p>
-<p>Another option is to just add my notebook as a snakemake rule:</p>
-<p>https://nbis-reproducible-research.readthedocs.io/en/course_2104/rmarkdown/#r-markdown-and-snakemake</p>
-<p>This could be nicer because R markdown will give me more control over what the report.html looks like.</p></p>
+<p>A collection of tools, papers, and workflows I've found useful.</p>
+<h2 id="papers">Papers</h2>
+<ul>
+<li><a href="https://morrelllab.github.io/classics/index.html">Classic population genetics papers</a> — curated by the Morrell Lab</li>
+<li>Pollak, Edward. "On the theory of partially inbreeding finite populations. I. Partial selfing." <em>Genetics</em> 117.2 (1987): 353.</li>
+</ul>
+<h2 id="tools-workflows">Tools &amp; Workflows</h2>
+<h3 id="rag-cli">RAG CLI</h3>
+<p>A simple CLI tool for asking questions about papers using retrieval augmented generation.</p>
+<p><a href="https://github.com/milesroberts-123/custom-rag-cli/tree/main">https://github.com/milesroberts-123/custom-rag-cli/tree/main</a></p>
+<h3 id="containerizing-snakemake-workflows">Containerizing Snakemake workflows</h3>
+<p>Generate a Dockerfile from a Snakemake workflow with <code>snakemake --containerize &gt; Dockerfile</code>.</p>
+<p><a href="https://github.com/snakemake/snakemake/issues/2602">https://github.com/snakemake/snakemake/issues/2602</a></p>
+<h3 id="snakemake-r-markdown">Snakemake + R Markdown</h3>
+<p>Embed an R Markdown notebook as a Snakemake rule to generate reports.</p>
+<p><a href="https://nbis-reproducible-research.readthedocs.io/en/course_2104/rmarkdown/#r-markdown-and-snakemake">https://nbis-reproducible-research.readthedocs.io/en/course_2104/rmarkdown/#r-markdown-and-snakemake</a></p></p>
     </article>
 </section>
 <!-- endblock -->
