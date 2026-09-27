@@ -1,6 +1,6 @@
 # Scientific writing
 
-Postion: TA
+Position: TA
 Course number: GEN 840
 Institution: Michigan State University
 Term: Spring 2024

@@ -16,5 +16,5 @@ Bluesky: @milesroberts.bsky.social
 
 Twitter/X: @MilesDaRoberts
 
-[Linkedin](linkedin.com/in/miles-roberts-58b015198)
+[Linkedin](https://linkedin.com/in/miles-roberts-58b015198)
 

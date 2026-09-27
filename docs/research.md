@@ -22,7 +22,7 @@ This is the second chapter of my dissertation and it is currently undergoing pee
 
 In this paper, I use k-mers to measure genetic diversity indices across 112 different plant species.
 
-# Machine learning modles to estimate timing of allele frequency trajectories
+# Machine learning models to estimate timing of allele frequency trajectories
 
 Preprint:
 
