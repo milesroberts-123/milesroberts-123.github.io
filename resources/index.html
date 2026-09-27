@@ -146,14 +146,16 @@
 <li>Pollak, Edward. "On the theory of partially inbreeding finite populations. I. Partial selfing." <em>Genetics</em> 117.2 (1987): 353.</li>
 </ul>
 <h2 id="tools-workflows">Tools &amp; Workflows</h2>
-<h3 id="custom-ollama-models">Custom ollama models</h3>
-<p>The below workflow creates a coding agent whose goal is to help guide graduate students. </p>
+<h3 id="custom-ollama-models-for-graduate-students">Custom ollama models for graduate students</h3>
+<p>The below workflow creates a coding agent whose goal is to guide graduate students as they learn coding and computational biology. The full model can be found here: </p>
+<p>https://ollama.com/milesdroberts/chip-assist</p>
+<p>Here are the basics of how the model was made:</p>
 <pre><code>vim Modelfile
 ollama create chip-assist -f ./Modelfile
 ollama cp chip-assist milesdroberts/chip-assist
 ollama push milesdroberts/chip-assist
 </code></pre>
-<p>This is the Modelfile</p>
+<p>This is the Modelfile:</p>
 <pre><code># 1. Choose your base model (e.g., llama3.2, gemma2, mistral, etc.)
 FROM qwen3.8
 

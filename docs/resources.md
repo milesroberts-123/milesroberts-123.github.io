@@ -9,9 +9,13 @@ A collection of tools, papers, and workflows I've found useful.
 
 ## Tools & Workflows
 
-### Custom ollama models
+### Custom ollama models for graduate students
 
-The below workflow creates a coding agent whose goal is to help guide graduate students. 
+The below workflow creates a coding agent whose goal is to guide graduate students as they learn coding and computational biology. The full model can be found here: 
+
+https://ollama.com/milesdroberts/chip-assist
+
+Here are the basics of how the model was made:
 
 ```
 vim Modelfile
@@ -20,7 +24,7 @@ ollama cp chip-assist milesdroberts/chip-assist
 ollama push milesdroberts/chip-assist
 ```
 
-This is the Modelfile
+This is the Modelfile:
 
 ```
 # 1. Choose your base model (e.g., llama3.2, gemma2, mistral, etc.)
